@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		238BFCBE27965476005EB0D9 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 238BFCBB27965476005EB0D9 /* cross.png */; };
+		238BFCBF27965476005EB0D9 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 238BFCBC27965476005EB0D9 /* board.png */; };
+		238BFCC027965476005EB0D9 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 238BFCBD27965476005EB0D9 /* nought.png */; };
 		23A1D3072796366B00A7B5D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1D3062796366B00A7B5D0 /* AppDelegate.swift */; };
 		23A1D3092796366B00A7B5D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1D3082796366B00A7B5D0 /* SceneDelegate.swift */; };
 		23A1D30B2796366B00A7B5D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1D30A2796366B00A7B5D0 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		238BFCBB27965476005EB0D9 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		238BFCBC27965476005EB0D9 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		238BFCBD27965476005EB0D9 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 		23A1D3032796366B00A7B5D0 /* Lab1_VergelDelaCruz_835208_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab1_VergelDelaCruz_835208_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23A1D3062796366B00A7B5D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23A1D3082796366B00A7B5D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +43,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		238BFCBA27965476005EB0D9 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				238BFCBB27965476005EB0D9 /* cross.png */,
+				238BFCBC27965476005EB0D9 /* board.png */,
+				238BFCBD27965476005EB0D9 /* nought.png */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
 		23A1D2FA2796366B00A7B5D0 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +72,7 @@
 		23A1D3052796366B00A7B5D0 /* Lab1_VergelDelaCruz_835208_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				238BFCBA27965476005EB0D9 /* res */,
 				23A1D3062796366B00A7B5D0 /* AppDelegate.swift */,
 				23A1D3082796366B00A7B5D0 /* SceneDelegate.swift */,
 				23A1D30A2796366B00A7B5D0 /* ViewController.swift */,
@@ -125,9 +142,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				238BFCBE27965476005EB0D9 /* cross.png in Resources */,
 				23A1D3132796366C00A7B5D0 /* LaunchScreen.storyboard in Resources */,
+				238BFCBF27965476005EB0D9 /* board.png in Resources */,
 				23A1D3102796366C00A7B5D0 /* Assets.xcassets in Resources */,
 				23A1D30E2796366B00A7B5D0 /* Main.storyboard in Resources */,
+				238BFCC027965476005EB0D9 /* nought.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
