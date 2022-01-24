@@ -17,6 +17,7 @@
 		23A1D3102796366C00A7B5D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23A1D30F2796366C00A7B5D0 /* Assets.xcassets */; };
 		23A1D3132796366C00A7B5D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A1D3112796366C00A7B5D0 /* LaunchScreen.storyboard */; };
 		23D884D52797882000777BF5 /* TicTacToe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D884D42797882000777BF5 /* TicTacToe.swift */; };
+		9BFF2BE8279F737300D5F414 /* TicTacToeModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF2BE6279F737300D5F414 /* TicTacToeModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		23A1D3122796366C00A7B5D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23A1D3142796366C00A7B5D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23D884D42797882000777BF5 /* TicTacToe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToe.swift; sourceTree = "<group>"; };
+		9BFF2BE7279F737300D5F414 /* TicTacToeModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TicTacToeModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				23A1D3112796366C00A7B5D0 /* LaunchScreen.storyboard */,
 				23A1D3142796366C00A7B5D0 /* Info.plist */,
 				23D884D42797882000777BF5 /* TicTacToe.swift */,
+				9BFF2BE6279F737300D5F414 /* TicTacToeModel.xcdatamodeld */,
 			);
 			path = Lab1_VergelDelaCruz_835208_iOS;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23A1D30B2796366B00A7B5D0 /* ViewController.swift in Sources */,
+				9BFF2BE8279F737300D5F414 /* TicTacToeModel.xcdatamodeld in Sources */,
 				23A1D3072796366B00A7B5D0 /* AppDelegate.swift in Sources */,
 				23D884D52797882000777BF5 /* TicTacToe.swift in Sources */,
 				23A1D3092796366B00A7B5D0 /* SceneDelegate.swift in Sources */,
@@ -382,6 +386,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9BFF2BE6279F737300D5F414 /* TicTacToeModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9BFF2BE7279F737300D5F414 /* TicTacToeModel.xcdatamodel */,
+			);
+			currentVersion = 9BFF2BE7279F737300D5F414 /* TicTacToeModel.xcdatamodel */;
+			path = TicTacToeModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 23A1D2FB2796366B00A7B5D0 /* Project object */;
 }
