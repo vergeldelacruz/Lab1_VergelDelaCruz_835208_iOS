@@ -6,19 +6,21 @@
 //
 
 import Foundation
+import CoreData
 
 class TicTacToe {
+    
     private var currentPlayer:Int = 1
     private var isActive:Bool = true
     private var squareStates = [0,0,0,0,0,0,0,0,0]
     private var player1Score = 0;
     private var player2Score = 0
-    
+    private var lastButton:Int = -1
     private let winningCombinations = [ [0,1,2], [3,4,5], [6,7,8], [0,3,6,], [1,4,7], [2,5,8], [0,4,8], [2,4,6]]
     private var player1Won:Bool = false
     private var player2Won:Bool = false
     private var draw:Bool = false
-    
+
     public func getCurrentPlayer() -> Int {
         return self.currentPlayer
     }
@@ -97,4 +99,12 @@ class TicTacToe {
         self.player2Won = false
         self.draw = false
     }
+    public func getLastButton() -> Int {
+        return self.lastButton
+    }
+    public func setLastButton(lastButton:Int) {
+        self.lastButton = lastButton
+    }
+    
+   
 }
